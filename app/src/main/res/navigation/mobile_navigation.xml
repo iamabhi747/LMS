@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.vit.library.ui.home.HomeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/nav_books"
+        android:name="com.vit.library.ui.books.BooksFragment"
+        android:label="@string/menu_books"
+        tools:layout="@layout/fragment_books" />
+
+    <fragment
+        android:id="@+id/nav_users"
+        android:name="com.vit.library.ui.users.UsersFragment"
+        android:label="@string/menu_users"
+        tools:layout="@layout/fragment_users" />
+
+    <fragment
+        android:id="@+id/nav_newbook"
+        android:name="com.vit.library.ui.newbook.NewBookFragment"
+        android:label="@string/menu_newbook"
+        tools:layout="@layout/fragment_newbook" />
+
+    <fragment
+        android:id="@+id/nav_newuser"
+        android:name="com.vit.library.ui.newuser.NewUserFragment"
+        android:label="@string/menu_newuser"
+        tools:layout="@layout/fragment_newuser" />
+
+    <fragment
+        android:id="@+id/nav_newlend"
+        android:name="com.vit.library.ui.newlend.NewLendFragment"
+        android:label="@string/menu_newlend"
+        tools:layout="@layout/fragment_newlend" />
+
+    <fragment
+        android:id="@+id/nav_lends"
+        android:name="com.vit.library.ui.lends.LendsFragment"
+        android:label="@string/menu_lends"
+        tools:layout="@layout/fragment_lends"/>
+</navigation>

@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">library</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_books">Books</string>
+    <string name="menu_users">Users</string>
+    <string name="menu_newbook">New Asset</string>
+    <string name="menu_newuser">New User</string>
+    <string name="menu_newlend">New Lend</string>
+    <string name="menu_lends">Lends</string>
+</resources>
